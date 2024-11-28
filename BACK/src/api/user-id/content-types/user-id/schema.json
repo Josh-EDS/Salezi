@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_ids",
+  "info": {
+    "singularName": "user-id",
+    "pluralName": "user-ids",
+    "displayName": "user_id",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "Permission_level": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "credentials": {
+      "type": "string"
+    }
+  }
+}
